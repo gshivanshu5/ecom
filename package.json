@@ -1,9 +1,12 @@
 {
+  "homepage": "https://gshivanshu5.github.io/ecom",
   "name": "ashop",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -13,6 +16,8 @@
     "@headlessui/react": "^1.7.18",
     "@reduxjs/toolkit": "^2.2.1",
     "firebase": "^10.8.1",
+    "gh": "^2.8.9",
+    "pages": "^0.0.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",

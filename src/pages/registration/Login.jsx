@@ -74,7 +74,7 @@ function Login() {
                 <div className=' flex justify-center mb-3'>
                     <button
                         onClick={signin}
-                        className=' bg-blue-500 w-full text-black font-bold  px-2 py-2 rounded-lg'>
+                        className=' bg-blue-500 w-full text-white font-bold  px-2 py-2 rounded-lg'>
                         Login
                     </button>
                 </div>

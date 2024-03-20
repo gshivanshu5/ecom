@@ -24,7 +24,7 @@ import DashboardTab from './pages/admin/dashboard/DashboardTab';
 function App() {
   return (
     <MyState>
-      <Router>
+      <Router basename="/ecom">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/order" element={
